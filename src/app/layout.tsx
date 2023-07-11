@@ -1,7 +1,11 @@
-import Image from 'next/image';
-import { Pretendard } from '@/app/fonts';
-import Sokuri from '../../public/images/logo.svg';
+import localFont from 'next/font/local';
 import './globals.css';
+import GNB from '@/components/GNB';
+import Header from '@/components/Header';
+
+const Pretendard = localFont({
+  src: './PretendardVariable.woff2',
+});
 
 export const metadata = {
   title: 'Sokuri',
@@ -14,13 +18,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
-      <body className={Pretendard.className}>
-        <section className='header'>
-          <Image src={Sokuri} alt='logo' />
-        </section>
-        {children}
-        <section className='footer'>GNB</section>
+    <html lang='en' className={Pretendard.className}>
+      <body className='flex flex-col'>
+        <Header />
+        <main className='grow'>{children}</main>
+        <GNB />
       </body>
     </html>
   );

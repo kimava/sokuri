@@ -26,17 +26,3 @@ body {
   position: relative;
   height: 100vh;
 }
-
-.header {
-  padding: 14px 16px;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 92px;
-  border-top: 1px solid #eeeeee;
-}
