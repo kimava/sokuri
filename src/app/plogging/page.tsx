@@ -1,10 +1,9 @@
-import EventPots from '@/components/EventPots';
-import React from 'react';
+import EventPost from '@/components/EventPost';
 
 export default function PloggingPage() {
   return (
     <>
-      <EventPots />
+      <EventPost />
     </>
   );
 }
