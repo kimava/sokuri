@@ -39,13 +39,13 @@ export default function GNB() {
   const pathName = usePathname();
 
   return (
-    // Fix the height
-    <nav className='sticky bottom-0 h-16 mb-8 flex justify-around items-center text-xs border-t border-[#eeeeee]'>
+    // Fix the padding horizontal
+    <nav className='sticky bottom-0 flex justify-around items-center text-xs border-t border-[#eeeeee] bg-white'>
       {menu.map((item) => (
         <Link
           key={item.href}
           href={item.href}
-          className='w-32 flex flex-col items-center'
+          className='pt-2 pb-8 w-32 flex flex-col items-center'
         >
           {pathName === item.href ? item.activatedIcon : item.icon}
           <span
