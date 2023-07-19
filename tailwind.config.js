@@ -6,6 +6,32 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors: {
+      black: '#000000',
+      white: '#FFFFFF',
+      'gray-12': '#1A1A1A',
+      'gray-11': '#272727',
+      'gray-10': '#3D3D3D',
+      'gray-09': '#525252',
+      'gray-08': '#707070',
+      'gray-07': '#949494',
+      'gray-06': '#A4A4A4',
+      'gray-05': '#C0C0C0',
+      'gray-04': '#E1E1E1',
+      'gray-03': '#EDEDED',
+      'gray-02': '#F5F5F5',
+      'gray-01': '#FBFBFB',
+      'blue-01': '#2068E1',
+      'blue-02': '#BCE0FF',
+      'blue-03': '#E3F3FF',
+      'yellow-01': '#F6B812',
+      'yellow-02': '#FDF7C0',
+      'yellow-03': '#FEFCE5',
+    },
+    boxShadow: {
+      DEFAULT: '0px 2px 8px 0px rgba(0, 0, 0, 0.10)',
+      md: '0px 2px 8px 0px rgba(0, 0, 0, 0.15)',
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -15,4 +41,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
