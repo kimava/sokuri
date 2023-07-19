@@ -40,7 +40,7 @@ export default function GNB() {
 
   return (
     // Fix the padding horizontal
-    <nav className='sticky bottom-0 flex justify-around items-center text-xs border-t border-[#eeeeee] bg-white'>
+    <nav className='sticky bottom-0 flex justify-around items-center B100 border-t border-[#eeeeee] bg-white'>
       {menu.map((item) => (
         <Link
           key={item.href}
@@ -50,7 +50,7 @@ export default function GNB() {
           {pathName === item.href ? item.activatedIcon : item.icon}
           <span
             className={`mt-0.5 ${
-              pathName === item.href ? `text-[#2068E1]` : `text-[#707070]`
+              pathName === item.href ? `text-blue-01` : `text-gray-08`
             }`}
           >
             {item.iconText}
