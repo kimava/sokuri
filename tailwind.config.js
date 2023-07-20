@@ -38,6 +38,12 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      spacing: {
+        4.5: '1.125rem',
+      },
+      borderRadius: {
+        '2.5xl': '1.25rem',
+      },
     },
   },
   plugins: [],

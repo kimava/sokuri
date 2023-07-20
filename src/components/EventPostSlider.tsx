@@ -19,10 +19,9 @@ export default function EventPostSlider({ posts }: Props) {
     <div className={styles.slider}>
       <Slider {...sliderSettings} className='pl-3.5'>
         {posts.map((post) => (
-          // fix px-4 to 18px, rounded-2xl to 20px shadow
           <div
             key={post.title}
-            className='my-4 pt-4 pb-5 px-4 text-left bg-white rounded-2xl shadow'
+            className='my-4 pt-4 pb-5 px-4.5 text-left bg-white rounded-2.5xl shadow'
           >
             <div className='mb-3 flex B100 text-center'>
               <span className='mr-1.5 py-0.5 px-1.5 text-white bg-gray-09 rounded-lg'>

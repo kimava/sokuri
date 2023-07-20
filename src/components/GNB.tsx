@@ -39,13 +39,12 @@ export default function GNB() {
   const pathName = usePathname();
 
   return (
-    // Fix the padding horizontal
     <nav className='sticky bottom-0 flex justify-around items-center B100 border-t border-[#eeeeee] bg-white'>
       {menu.map((item) => (
         <Link
           key={item.href}
           href={item.href}
-          className='pt-2 pb-8 w-32 flex flex-col items-center'
+          className='pt-[11px] pb-[39px] w-32 flex flex-col items-center'
         >
           {pathName === item.href ? item.activatedIcon : item.icon}
           <span
