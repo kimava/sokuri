@@ -14,11 +14,13 @@ export default function EventPostSlider({ posts }: Props) {
           className='my-4 mr-2 pt-4 pb-5 px-4.5 flex-embla min-w-0 text-left bg-white rounded-2.5xl shadow'
         >
           <div className='mb-3 flex B100 text-center'>
-            <span className='mr-1.5 py-0.5 px-1.5 text-white bg-gray-09 rounded-lg'>
-              {countDDay(post.beginEvent) === 0
-                ? `D-day`
-                : `${countDDay(post.beginEvent)}일 남음`}
-            </span>
+            {countDDay(post.beginEvent) < 0 ? null : (
+              <span className='mr-1.5 py-0.5 px-1.5 text-white bg-gray-09 rounded-lg'>
+                {countDDay(post.beginEvent) === 0
+                  ? `D-day`
+                  : `${countDDay(post.beginEvent)}일 남음`}
+              </span>
+            )}
             <span className='mr-1.5 py-0.5 px-1.5 text-gray-12 bg-gray-03 rounded-lg'>
               {post.location}
             </span>
