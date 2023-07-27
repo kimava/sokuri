@@ -1,7 +1,7 @@
 'use client';
 
 import { Event } from '@/service/events';
-import { countDDay } from '@/util/util';
+import { countDDay, formatDate } from '@/util/util';
 
 type Props = { posts: Event[] };
 
@@ -31,7 +31,9 @@ export default function EventPostSlider({ posts }: Props) {
             )}
           </div>
           <p className='mb-3 H500 text-gray-12'>{post.title}</p>
-          <p className='mb-1.5 S300 text-gray-08'>{`${post.beginEvent} ~ ${post.finishEvent}`}</p>
+          <p className='mb-1.5 S300 text-gray-08'>
+            {formatDate(post.beginEvent)} ~ {formatDate(post.finishEvent)}
+          </p>
           <p className='B300 text-gray-06'>{post.organizer}</p>
         </div>
       ))}
