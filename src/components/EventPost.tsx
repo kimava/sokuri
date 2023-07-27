@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import EventPostSlider from './EventPostSlider';
 import { getAllPosts } from '@/service/events';
+import Carousel from './Carousel';
 
 export default async function EventPost() {
   const posts = await getAllPosts();
@@ -12,7 +13,12 @@ export default async function EventPost() {
           전체보기
         </Link>
       </div>
-      <EventPostSlider posts={posts} />
+      <div className='w-full pl-2'>
+        <Carousel
+          slides={<EventPostSlider posts={posts} />}
+          options={{ loop: false, align: 'start' }}
+        />
+      </div>
     </section>
   );
 }
