@@ -44,6 +44,9 @@ module.exports = {
       borderRadius: {
         '2.5xl': '1.25rem',
       },
+      flex: {
+        embla: '0 0 87%',
+      },
     },
   },
   plugins: [],
