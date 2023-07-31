@@ -40,12 +40,14 @@ module.exports = {
       },
       spacing: {
         4.5: '1.125rem',
+        9.5: '2.375rem',
       },
       borderRadius: {
         '2.5xl': '1.25rem',
       },
       flex: {
         embla: '0 0 87%',
+        embla1: '0 0 100%',
       },
     },
   },
