@@ -9,7 +9,11 @@ export default function RecruitPostSlider({ posts }: Props) {
   return (
     <>
       {posts.map((post) => (
-        <div className='mr-[7px] flex-embla2 w-[168px] h-[208px] relative rounded-xl bg-gradient-gray'>
+        // FIX ME : change key prop
+        <div
+          key={post.title}
+          className='mr-[7px] flex-embla2 w-[168px] h-[208px] relative rounded-xl bg-gradient-gray'
+        >
           <Image
             src={post.thumbnail}
             alt='thumbnail'
