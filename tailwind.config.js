@@ -37,10 +37,14 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-gray':
+          'linear-gradient(0deg, rgba(51, 51, 51, 0.70) 0%, rgba(51, 51, 51, 0.14) 54.69%, rgba(51, 51, 51, 0.00) 80.21%, rgba(51, 51, 51, 0.00) 100%)',
       },
       spacing: {
+        3.5: '0.875rem',
         4.5: '1.125rem',
         9.5: '2.375rem',
+        15: '3.75rem',
       },
       borderRadius: {
         '2.5xl': '1.25rem',
@@ -48,6 +52,7 @@ module.exports = {
       flex: {
         embla: '0 0 87%',
         embla1: '0 0 100%',
+        embla2: '0 0 168px',
       },
     },
   },
