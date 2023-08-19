@@ -4,7 +4,7 @@ import EventBannerSlider from './EventBannerSlider';
 
 export default function EventBanner() {
   return (
-    <section className='relative'>
+    <section className='mb-10 relative'>
       <CarouselWithDots
         slides={<EventBannerSlider />}
         options={{ loop: false, align: 'start' }}
