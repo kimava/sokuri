@@ -8,6 +8,7 @@ export type Event = {
   organizer: string;
   location: string;
   dues: string;
+  thumbnail: string;
 };
 
 function filterUpcomingItems(item: Event) {
