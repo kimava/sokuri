@@ -5,7 +5,8 @@
     "finishEvent": "2023-08-27",
     "organizer": "강릉비치비어페스티벌",
     "location": "강원 강릉시",
-    "dues": ""
+    "dues": "",
+    "thumbnail": "https://images.unsplash.com/photo-1559675531-4b0029b45a65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80"
   },
   {
     "title": "JUST WALK 2023",
@@ -13,7 +14,8 @@
     "finishEvent": "2023-09-20",
     "organizer": "메리한사람들",
     "location": "서울 종로구",
-    "dues": "10000"
+    "dues": "10000",
+    "thumbnail": "https://images.unsplash.com/photo-1614909382965-b3870b49b5c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2580&q=80"
   },
   {
     "title": "안녕! 산해진미 함께할게 in 제주",
@@ -21,7 +23,8 @@
     "finishEvent": "2023-08-07",
     "organizer": "제주특별자치도 자원봉사센터",
     "location": "제주",
-    "dues": ""
+    "dues": "",
+    "thumbnail": "https://images.unsplash.com/photo-1553096442-8fe2118fb927?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2624&q=80"
   },
   {
     "title": "플로깅 이벤트",
@@ -29,7 +32,8 @@
     "finishEvent": "2023-09-30",
     "organizer": "잇츠미",
     "location": "경기도 수원시",
-    "dues": ""
+    "dues": "",
+    "thumbnail": "https://images.unsplash.com/photo-1546142711-1e28c0540deb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2671&q=80"
   },
   {
     "title": "플로플로플로깅",
@@ -37,7 +41,8 @@
     "finishEvent": "2023-08-02",
     "organizer": "플로깅어스",
     "location": "서울 강남구",
-    "dues": ""
+    "dues": "",
+    "thumbnail": "https://images.unsplash.com/photo-1589502979768-57fc4df2df8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1704&q=80"
   },
   {
     "title": "2023 쓰줍쓰줍",
@@ -45,7 +50,8 @@
     "finishEvent": "2023-08-08",
     "organizer": "쓰담쓰담",
     "location": "인천 00구",
-    "dues": ""
+    "dues": "",
+    "thumbnail": "https://images.unsplash.com/photo-1584445743187-cd8ba040349a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2652&q=80"
   },
   {
     "title": "홀리몰리",
@@ -53,6 +59,7 @@
     "finishEvent": "2023-03-05",
     "organizer": "주민센터",
     "location": "서울 동작구",
-    "dues": "15000"
+    "dues": "15000",
+    "thumbnail": "https://images.unsplash.com/photo-1560196327-cca0a731441b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80"
   }
 ]
