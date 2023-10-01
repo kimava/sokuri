@@ -9,7 +9,11 @@ export default function PloggingPostSlider({ posts }: Props) {
   return (
     <div className='grid grid-cols-2 gap-x-[7px] gap-y-3'>
       {posts.map((post) => (
-        <div className='relative w-full h-[218px] rounded-[11px]'>
+        // FIX ME : key prop post ID로 변경하기
+        <div
+          key={post.thumbnail}
+          className='relative w-full h-[218px] rounded-[11px]'
+        >
           <img
             src={post.thumbnail}
             alt='thumbnail'
