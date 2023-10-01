@@ -3,7 +3,7 @@ import EventPost from '@/components/EventPost';
 import RecruitPost from '@/components/RecruitPost';
 import PloggingPost from '@/components/PloggingPost';
 
-export default function PloggingPage() {
+export default function CommunityPage() {
   return (
     <div className='bg-white h-full'>
       <EventPost />

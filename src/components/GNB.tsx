@@ -18,7 +18,7 @@ const menu = [
     iconText: '지도',
   },
   {
-    href: '/plogging',
+    href: '/community',
     icon: <Image src={Trash} alt='플로깅' width={24} height={24} />,
     activatedIcon: (
       <Image src={TrashActive} alt='플로깅' width={24} height={24} />
