@@ -17,8 +17,8 @@ export default function RecruitPostSlider({ posts }: Props) {
           <Image
             src={post.thumbnail}
             alt='thumbnail'
-            sizes='100vw'
             fill
+            sizes='100%'
             className='w-full h-full rounded-xl'
           />
           <div className='absolute left-3 right-4 bottom-[14px]'>
@@ -32,6 +32,7 @@ export default function RecruitPostSlider({ posts }: Props) {
           src='https://images.unsplash.com/photo-1597348989645-46b190ce4918?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80'
           alt='thumbnail'
           fill
+          sizes='100%'
           className='rounded-xl'
         />
         <div className='relative h-fit px-3.5 py-2 S500 text-gray-12 bg-white rounded-3xl'>
