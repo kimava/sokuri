@@ -1,6 +1,7 @@
 import React from 'react';
-import { getAllPosts } from '@/service/events';
 import Image from 'next/image';
+import Link from 'next/link';
+import { getAllPosts } from '@/service/events';
 import { countDDay, formatDate } from '@/util/util';
 
 export default async function Eventpage() {
@@ -13,7 +14,9 @@ export default async function Eventpage() {
       </h1>
       <section>
         {posts.map((post) => (
-          <div
+          // FIX ME: path 포스트 타이틀 아닌 uniqueId 등으로 변경 필요함. 논의하기!
+          <Link
+            href={`/community/event/${post.title}`}
             key={post.thumbnail}
             className='py-5 flex flex-col items-start border-solid border-b-2 border-b-gray-02'
           >
@@ -46,15 +49,16 @@ export default async function Eventpage() {
                 <p className='B300 text-gray-06'>{post.organizer}</p>
               </div>
               <div className='w-[73px] h-[73px] relative'>
-            <Image
-              src={post.thumbnail}
-              alt={post.title}
+                <Image
+                  src={post.thumbnail}
+                  alt={post.title}
                   fill
                   sizes='100%'
                   className='rounded-lg'
-            />
-          </div>
+                />
+              </div>
             </div>
+          </Link>
         ))}
       </section>
     </div>
