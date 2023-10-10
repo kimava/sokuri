@@ -8,10 +8,10 @@ type Props = { posts: PloggingPost[] };
 export default function PloggingPostSlider({ posts }: Props) {
   return (
     <div className='grid grid-cols-2 gap-x-[7px] gap-y-3'>
-      {posts.map((post) => (
+      {posts.map((post, index) => (
         // FIX ME : key prop post ID로 변경하기
         <div
-          key={post.thumbnail}
+          key={`${post.thumbnail}${index}`}
           className='relative w-full h-[218px] rounded-[11px]'
         >
           <img
