@@ -37,7 +37,7 @@ export default async function Eventpage() {
                 </span>
               )}
             </div>
-            <div className='flex flex-row w-full'>
+            <div className='flex flex-row justify-between items-center w-full'>
               <div className='text-left inline'>
                 <h3 className='mb-2 H300 text-gray-12'>{post.title}</h3>
                 <p className='mb-2 S300 text-gray-08'>
@@ -45,15 +45,16 @@ export default async function Eventpage() {
                 </p>
                 <p className='B300 text-gray-06'>{post.organizer}</p>
               </div>
-            </div>
+              <div className='w-[73px] h-[73px] relative'>
             <Image
               src={post.thumbnail}
               alt={post.title}
-              width={73}
-              height={73}
-              className='inline'
+                  fill
+                  sizes='100%'
+                  className='rounded-lg'
             />
           </div>
+            </div>
         ))}
       </section>
     </div>
