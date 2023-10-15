@@ -12,6 +12,24 @@ export type Event = {
   thumbnail: string;
 };
 
+export type EventDetail = Event & {
+  venue: string;
+  dueDate: Date;
+  numOfPeople: string;
+  content: string;
+  position: {
+    lat: number;
+    lng: number;
+  };
+  images: string[];
+  website: string;
+};
+
+export type EventDetailWithMeta = EventDetail & {
+  prev: Event | null;
+  next: Event | null;
+};
+
 function filterUpcomingItems(item: Event) {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
