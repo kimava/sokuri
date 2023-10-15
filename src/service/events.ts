@@ -2,6 +2,7 @@ import { readFile } from 'fs/promises';
 import path from 'path';
 
 export type Event = {
+  id: string;
   title: string;
   beginEvent: Date;
   finishEvent: Date;
