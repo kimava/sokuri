@@ -16,7 +16,7 @@ export default async function Eventpage() {
         {posts.map((post) => (
           // FIX ME: path 포스트 타이틀 아닌 uniqueId 등으로 변경 필요함. 논의하기!
           <Link
-            href={`/community/event/${post.title}`}
+            href={`/community/event/${post.id}`}
             key={post.thumbnail}
             className='py-5 flex flex-col items-start border-solid border-b-2 border-b-gray-02'
           >
