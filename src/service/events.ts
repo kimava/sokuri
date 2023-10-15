@@ -48,3 +48,27 @@ export async function getAllPosts(): Promise<Event[]> {
     );
   // .then((events) => events.filter(filterUpcomingItems).slice(0, 5));
 }
+
+export async function getPostDetail(
+  fileName: string
+): Promise<EventDetailWithMeta> {
+  const filePath = path.join(process.cwd(), 'data', `${fileName}.json`);
+  const posts = await getAllPosts();
+  const post = posts.find((post) => post.id === fileName);
+
+  if (!post) throw new Error(`${fileName} 없음`);
+
+  const index = posts.indexOf(post);
+  const next = index > 0 ? posts[index - 1] : null;
+  const prev = index < posts.length - 1 ? posts[index + 1] : null;
+
+  const content = await readFile(filePath, 'utf-8').then<EventDetail>(
+    JSON.parse
+  );
+
+  return {
+    ...content,
+    next,
+    prev,
+  };
+}
