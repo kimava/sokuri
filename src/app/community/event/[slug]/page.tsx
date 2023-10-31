@@ -94,7 +94,11 @@ export default async function EventDetailPage({ params: { slug } }: Props) {
         </div>
         <div className={CATEGORY_BOX_CLASS}>
           <span className={CATEGORY_CLASS}>참가비</span>
-          <span className={CONTENT_CLASS}>{dues ? dues : '무료'}</span>
+          {dues ? (
+            <span className={CONTENT_CLASS}>{dues}</span>
+          ) : (
+            <span className='B300 text-blue-01'>무료</span>
+          )}
         </div>
       </div>
       <div className={DIVIDER_CLASS} />
