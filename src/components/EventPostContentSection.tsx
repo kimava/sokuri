@@ -1,7 +1,9 @@
+'use client';
 import { EventDetailWithMeta } from '@/service/events';
 import Image from 'next/image';
 import React from 'react';
 import EventPostTab from './EventPostTab';
+import KakaoMap from './KakaoMap';
 
 type Props = {
   post: EventDetailWithMeta;
@@ -39,6 +41,9 @@ export default function EventPostContentSection({ post }: Props) {
         <section id='location' className='scroll-smooth'>
           <h3 className='mb-4 H300 text-gray-09'>위치</h3>
           <p className='mb-4 CONTENT text-gray-09'>{post.venue}</p>
+          <div className='w-full h-[200px] rounded-lg'>
+            <KakaoMap position={post.position} />
+          </div>
         </section>
       </div>
     </div>
