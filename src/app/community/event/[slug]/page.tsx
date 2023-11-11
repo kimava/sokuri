@@ -107,7 +107,7 @@ export default async function EventDetailPage({ params: { slug } }: Props) {
       <div className={DIVIDER_CLASS} />
       <EventPostContentSection post={post} />
       <div className='w-full'>
-        <ShareLinkButtonSet path={slug} url={website} />
+        <ShareLinkButtonSet path={`communtiy/event/${slug}`} url={website} />
       </div>
     </div>
   );
