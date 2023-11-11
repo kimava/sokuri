@@ -1,5 +1,6 @@
 import EventPostContentSection from '@/components/EventPostContentSection';
 import EventPostNavigationLinks from '@/components/EventPostNavigationLinks';
+import ShareLinkButtonSet from '@/components/ShareLinkButtonSet';
 import { getPostDetail } from '@/service/events';
 import { countDDay } from '@/util/util';
 import Image from 'next/image';
@@ -105,6 +106,9 @@ export default async function EventDetailPage({ params: { slug } }: Props) {
       <EventPostNavigationLinks prev={prev} next={next} />
       <div className={DIVIDER_CLASS} />
       <EventPostContentSection post={post} />
+      <div className='w-full'>
+        <ShareLinkButtonSet path={slug} url={website} />
+      </div>
     </div>
   );
 }
