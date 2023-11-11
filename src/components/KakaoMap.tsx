@@ -41,8 +41,7 @@ const KakaoMap = ({ position }: Props) => {
         <MapMarker
           position={position}
           image={{
-            // 이미지 url 변경 필요
-            src: 'https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_red.png',
+            src: 'https://sokuri-bucket.s3.ap-northeast-2.amazonaws.com/map_marker.png',
             size: { width: 28, height: 38 },
             options: {
               offset: {
