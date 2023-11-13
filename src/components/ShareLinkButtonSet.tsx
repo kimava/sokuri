@@ -25,7 +25,7 @@ export default function ShareLinkButtonSet({
   };
 
   function ensureHttps(url: string) {
-    if (!url.startsWith('http://') && !url.startsWith('https://')) {
+    if (url && !url.startsWith('http://') && !url.startsWith('https://')) {
       return 'https://' + url;
     }
     return url;
@@ -40,7 +40,7 @@ export default function ShareLinkButtonSet({
         <Image src={Share} alt='share button' width={24} height={24} />
       </div>
       <Link
-        href={ensureHttps(url)}
+        href={ensureHttps(url) || ''}
         className='S500 py-[15px] flex-grow text-white text-center bg-blue-01 rounded-lg'
       >
         신청하러 가기

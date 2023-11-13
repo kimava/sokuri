@@ -14,7 +14,6 @@ export default async function Eventpage() {
       </h1>
       <section>
         {posts.map((post) => (
-          // FIX ME: path 포스트 타이틀 아닌 uniqueId 등으로 변경 필요함. 논의하기!
           <Link
             href={`/community/event/${post.id}`}
             key={post.thumbnail}
@@ -50,7 +49,7 @@ export default async function Eventpage() {
               </div>
               <div className='w-[73px] h-[73px] relative'>
                 <Image
-                  src={post.thumbnail}
+                  src={post.images?.[0]}
                   alt={post.title}
                   fill
                   sizes='100%'
