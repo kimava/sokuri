@@ -57,7 +57,7 @@ export default async function Eventpage() {
                     className='rounded-lg'
                   />
                 ) : (
-                  <span>'No Image'</span>
+                  <span>No Image</span>
                 )}
               </div>
             </div>
