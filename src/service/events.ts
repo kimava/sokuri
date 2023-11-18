@@ -52,7 +52,7 @@ async function getData() {
 export async function getAllPosts(): Promise<Event[]> {
   const res = await fetch(`${API_ENDPOINT}/event`);
   console.log(res.json());
-  return fetch(`${API_ENDPOINT}/event`)
+  return fetch(`${API_ENDPOINT}/event`, { next: { revalidate: 3600 } })
     .then<Event[]>((res) => res.json())
     .then((events) =>
       events.sort((a, b) => (a.beginEvent > b.beginEvent ? -1 : 1))
@@ -71,9 +71,7 @@ export async function getPostDetail(id: string) {
   const prev = index < posts.length - 1 ? posts[index + 1] : null;
 
   const content = await fetch(`${API_ENDPOINT}/event/${id}`, {
-    headers: {
-      Accept: 'application/json',
-    },
+    next: { revalidate: 3600 },
   }).then((res) => res.json());
 
   return {
