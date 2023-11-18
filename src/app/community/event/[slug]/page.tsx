@@ -45,7 +45,11 @@ export default async function EventDetailPage({ params: { slug } }: Props) {
   return (
     <div className='h-full bg-white'>
       <div className='w-full h-[375px] relative'>
-        <Image src={images[0]} alt={title} fill sizes='100%' />
+        {images?.length > 0 ? (
+          <Image src={images[0]} alt={title} fill sizes='100%' />
+        ) : (
+          <span>No Image</span>
+        )}
       </div>
       <div className='px-4 pt-3.5 pb-5 text-start'>
         <div className='mb-3.5 flex B100 text-center'>

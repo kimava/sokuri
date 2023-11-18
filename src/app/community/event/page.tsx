@@ -48,13 +48,17 @@ export default async function Eventpage() {
                 <p className='B300 text-gray-06'>{post.organizer}</p>
               </div>
               <div className='w-[73px] h-[73px] relative'>
-                <Image
-                  src={post.images?.[0]}
-                  alt={post.title}
-                  fill
-                  sizes='100%'
-                  className='rounded-lg'
-                />
+                {post.images ? (
+                  <Image
+                    src={post.images?.[0]}
+                    alt={post.title}
+                    fill
+                    sizes='100%'
+                    className='rounded-lg'
+                  />
+                ) : (
+                  <span>'No Image'</span>
+                )}
               </div>
             </div>
           </Link>
