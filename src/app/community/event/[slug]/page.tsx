@@ -47,7 +47,10 @@ export default async function EventDetailPage({ params: { slug } }: Props) {
   const imageSlider =
     images &&
     images.map((image: string, index: number) => (
-      <div className='flex-embla1 min-w-0 h-[375px] relative'>
+      <div
+        key={image + index}
+        className='flex-embla1 min-w-0 h-[375px] relative'
+      >
         <Image src={image} alt={image + index} fill sizes='100%' />
       </div>
     ));
