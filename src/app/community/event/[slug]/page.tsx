@@ -1,3 +1,4 @@
+import CarouselForThumbnail from '@/components/CarouselForThumbnail';
 import EventPostContentSection from '@/components/EventPostContentSection';
 import EventPostNavigationLinks from '@/components/EventPostNavigationLinks';
 import ShareLinkButtonSet from '@/components/ShareLinkButtonSet';
@@ -42,15 +43,25 @@ export default async function EventDetailPage({ params: { slug } }: Props) {
     return <div>page not found</div>;
   }
 
+  // popup
+  const imageSlider =
+    images &&
+    images.map((image: string, index: number) => (
+      <div className='flex-embla1 min-w-0 h-[375px] relative'>
+        <Image src={image} alt={image + index} fill sizes='100%' />
+      </div>
+    ));
+
   return (
     <div className='h-full bg-white'>
-      <div className='w-full h-[375px] relative'>
-        {images?.length > 0 ? (
-          <Image src={images[0]} alt={title} fill sizes='100%' />
-        ) : (
-          <span>No Image</span>
-        )}
-      </div>
+      {images?.length > 0 ? (
+        <CarouselForThumbnail
+          slides={imageSlider}
+          options={{ loop: false, align: 'start' }}
+        />
+      ) : (
+        <span className='w-full h-[375px] relative'>No Image</span>
+      )}
       <div className='px-4 pt-3.5 pb-5 text-start'>
         <div className='mb-3.5 flex B100 text-center'>
           {countDDay(post.beginEvent) < 0 ? (
