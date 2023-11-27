@@ -16,7 +16,7 @@ export default async function Eventpage() {
         {posts.map((post) => (
           <Link
             href={`/community/event/${post.id}`}
-            key={post.thumbnail}
+            key={post.id}
             className='py-5 flex flex-col items-start border-solid border-b-2 border-b-gray-02'
           >
             <div className='mb-2.5'>
