@@ -1,86 +1,124 @@
 [
   {
+    "id": "a47af27e-6e43-11ee-98e6-71ee59f2b09d",
     "title": "강동구에서 매주 주말 플로깅 하실 분!",
-    "createdAt": "2023-08-25",
-    "location": "서울 강동구",
-    "thumbnail": "https://images.unsplash.com/photo-1541252260730-0412e8e2108e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1948&q=80",
-    "headCount": "1-5명"
+    "createdAt": "2023-10-19T14:52:09",
+    "location": "서울시 강동구",
+    "images": [
+      "https://images.unsplash.com/photo-1559675531-4b0029b45a65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
+      "https://images.unsplash.com/photo-1614909382965-b3870b49b5c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2580&q=80",
+      "https://images.unsplash.com/photo-1589502979768-57fc4df2df8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1704&q=80"
+    ],
+    "currentParticipants": 0,
+    "maxParticipants": 5
   },
   {
+    "id": "a47af76a-6e43-11ee-98e6-71ee59f2b09d",
     "title": "플로깅 같이 해요~",
-    "createdAt": "2023-08-24",
-    "location": "서울 강남구",
-    "thumbnail": "https://images.unsplash.com/photo-1516398810565-0cb4310bb8ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80",
-    "headCount": "1-10명"
+    "createdAt": "2023-10-19T14:52:09",
+    "location": "서울시 강남구",
+    "images": [
+      "https://images.unsplash.com/photo-1553096442-8fe2118fb927?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2624&q=80"
+    ],
+    "currentParticipants": 0,
+    "maxParticipants": 10
   },
   {
+    "id": "a47afa12-6e43-11ee-98e6-71ee59f2b09d",
     "title": "청계천을 깨끗이",
-    "createdAt": "2023-08-23",
-    "location": "서울 종로구",
-    "thumbnail": "https://images.unsplash.com/photo-1554139844-af2fc8ad3a3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
-    "headCount": "15명"
+    "createdAt": "2023-10-19T14:52:09",
+    "location": "서울시 종로구",
+    "images": null,
+    "currentParticipants": 0,
+    "maxParticipants": 15
   },
   {
+    "id": "a47afc06-6e43-11ee-98e6-71ee59f2b09d",
     "title": "안산천 플로깅",
-    "createdAt": "2023-08-23",
-    "location": "경기 안산시",
-    "thumbnail": "https://images.unsplash.com/photo-1664451838074-612e9879eb80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
-    "headCount": "4명"
+    "createdAt": "2023-10-19T14:52:09",
+    "location": "경기도 안산시",
+    "images": [
+      "https://images.unsplash.com/photo-1546142711-1e28c0540deb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2671&q=80"
+    ],
+    "currentParticipants": 0,
+    "maxParticipants": 4
   },
   {
-    "title": "청계산을 깨끗이",
-    "createdAt": "2023-08-06",
-    "location": "서울 종로구",
-    "thumbnail": "https://images.unsplash.com/photo-1590364962261-20baeb6262a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
-    "headCount": "20명"
+    "id": "a47afdd2-6e43-11ee-98e6-71ee59f2b09d",
+    "title": "석촌호수 한바퀴",
+    "createdAt": "2023-10-19T14:52:09",
+    "location": "서울시 송파구",
+    "images": [
+      "https://images.unsplash.com/photo-1584445743187-cd8ba040349a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2652&q=80"
+    ],
+    "currentParticipants": 0,
+    "maxParticipants": 20
   },
   {
+    "id": "a47aff94-6e43-11ee-98e6-71ee59f2b09d",
     "title": "플로깅 전국 투어",
-    "createdAt": "2023-08-22",
-    "location": "강원 속초시",
-    "thumbnail": "https://images.unsplash.com/photo-1522850067562-a4c60453058d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80",
-    "headCount": "1-5명"
+    "createdAt": "2023-10-19T14:52:09",
+    "location": "강원도 속초시",
+    "images": null,
+    "currentParticipants": 0,
+    "maxParticipants": 5
   },
   {
+    "id": "a47b0160-6e43-11ee-98e6-71ee59f2b09d",
     "title": "수원 플로깅 모임",
-    "createdAt": "2023-08-21",
-    "location": "경기 수원시",
-    "thumbnail": "https://images.unsplash.com/photo-1595267374112-9ec6eb71284b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
-    "headCount": "1-20명"
+    "createdAt": "2023-10-19T14:52:09",
+    "location": "경기도 수원시",
+    "images": null,
+    "currentParticipants": 0,
+    "maxParticipants": 20
   },
   {
+    "id": "a47b03a4-6e43-11ee-98e6-71ee59f2b09d",
     "title": "플로깅 에브리데이",
-    "createdAt": "2023-08-13",
-    "location": "대전 유성구",
-    "thumbnail": "https://images.unsplash.com/photo-1629185752152-fe65698ddee4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
-    "headCount": "1-12명"
+    "createdAt": "2023-10-19T14:52:09",
+    "location": "대전시 유성구",
+    "images": [
+      "https://images.unsplash.com/photo-1560196327-cca0a731441b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80"
+    ],
+    "currentParticipants": 0,
+    "maxParticipants": 12
   },
   {
+    "id": "a47b057a-6e43-11ee-98e6-71ee59f2b09d",
     "title": "서귀포 플로깅",
-    "createdAt": "2023-07-23",
-    "location": "제주 서귀포시",
-    "thumbnail": "https://images.unsplash.com/photo-1597348989645-46b190ce4918?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
-    "headCount": "1-25명"
+    "createdAt": "2023-10-19T14:52:09",
+    "location": "제주도 서귀포시",
+    "images": [
+      "https://images.unsplash.com/photo-1560196327-cca0a731441b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80"
+    ],
+    "currentParticipants": 0,
+    "maxParticipants": 25
   },
   {
+    "id": "a47b0778-6e43-11ee-98e6-71ee59f2b09d",
     "title": "수락산 플로깅",
-    "createdAt": "2023-07-01",
-    "location": "서울 동작구",
-    "thumbnail": "https://images.unsplash.com/photo-1549896869-ca27eeffe4fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
-    "headCount": "1-8명"
+    "createdAt": "2023-10-19T14:52:09",
+    "location": "서울시 동작구",
+    "images": null,
+    "currentParticipants": 0,
+    "maxParticipants": 8
   },
   {
+    "id": "a47b093a-6e43-11ee-98e6-71ee59f2b09d",
     "title": "청주 플로깅해여",
-    "createdAt": "2023-07-21",
-    "location": "충북 청주시",
-    "thumbnail": "https://images.unsplash.com/photo-1630807512145-d4c7c2d4c9c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=654&q=80",
-    "headCount": "1-5명"
+    "createdAt": "2023-10-19T14:52:09",
+    "location": "충청북도 청주시",
+    "images": null,
+    "currentParticipants": 0,
+    "maxParticipants": 5
   },
   {
-    "title": "플로깅 모임있어요",
-    "createdAt": "2023-08-01",
-    "location": "경기 광주시",
-    "thumbnail": "https://images.unsplash.com/photo-1587585113851-269ef0e07d9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
-    "headCount": "1-10명"
+    "id": "a47b0b2e-6e43-11ee-98e6-71ee59f2b09d",
+    "title": "플로깅 모임 있어요",
+    "createdAt": "2023-10-19T14:52:09",
+    "location": "경기도 광주시",
+    "images": null,
+    "currentParticipants": 0,
+    "maxParticipants": 10
   }
 ]

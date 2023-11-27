@@ -1,4 +1,6 @@
 import { API_ENDPOINT } from '@/app/constant';
+import { readFile } from 'fs/promises';
+import path from 'path';
 
 export type Event = {
   id: string;
@@ -8,7 +10,6 @@ export type Event = {
   organizer: string;
   location: string;
   dues: string;
-  thumbnail: string;
   images: string[];
 };
 
@@ -39,30 +40,27 @@ function filterUpcomingItems(item: Event) {
   return finishDate >= today;
 }
 
-async function getData() {
-  const res = await fetch(`${API_ENDPOINT}/event`);
-
-  if (!res.ok) {
-    throw new Error('Failed to fetch data');
-  }
-
-  return res.json();
-}
-
 export async function getAllPosts(): Promise<Event[]> {
-  const res = await fetch(`${API_ENDPOINT}/event`);
-  console.log(res.json());
-  return fetch(`${API_ENDPOINT}/event`, { next: { revalidate: 3600 } })
-    .then<Event[]>((res) => res.json())
+  const filePath = path.join(process.cwd(), 'data', 'events.json');
+
+  return readFile(filePath, 'utf-8')
+    .then<Event[]>(JSON.parse)
     .then((events) =>
       events.sort((a, b) => (a.beginEvent > b.beginEvent ? -1 : 1))
     );
+
+  // return fetch(`${API_ENDPOINT}/event`, { next: { revalidate: 3600 } })
+  //   .then<Event[]>((res) => res.json())
+  //   .then((events) =>
+  //     events.sort((a, b) => (a.beginEvent > b.beginEvent ? -1 : 1))
+  //   );
   // .then((events) => events.filter(filterUpcomingItems).slice(0, 5));
 }
 
 export async function getPostDetail(id: string) {
   const posts = await getAllPosts();
   const post = posts.find((post) => post.id === id);
+  const filePath = path.join(process.cwd(), 'data', `${id}.json`);
 
   if (!post) throw new Error(`${id} 없음`);
 
@@ -70,9 +68,13 @@ export async function getPostDetail(id: string) {
   const next = index > 0 ? posts[index - 1] : null;
   const prev = index < posts.length - 1 ? posts[index + 1] : null;
 
-  const content = await fetch(`${API_ENDPOINT}/event/${id}`, {
-    next: { revalidate: 3600 },
-  }).then((res) => res.json());
+  // const content = await fetch(`${API_ENDPOINT}/event/${id}`, {
+  //   next: { revalidate: 3600 },
+  // }).then((res) => res.json());
+
+  const content = await readFile(filePath, 'utf-8').then<EventDetail>(
+    JSON.parse
+  );
 
   return {
     ...content,

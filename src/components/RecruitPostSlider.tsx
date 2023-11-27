@@ -9,21 +9,22 @@ export default function RecruitPostSlider({ posts }: Props) {
   return (
     <>
       {posts.map((post) => (
-        // FIX ME : change key prop
         <div
-          key={post.title}
+          key={post.id}
           className='mr-[7px] flex-embla2 w-[168px] h-[208px] relative rounded-xl bg-gradient-gray'
         >
-          <Image
-            src={post.thumbnail}
-            alt='thumbnail'
-            fill
-            sizes='100%'
-            className='w-full h-full rounded-xl'
-          />
+          {post.images && post.images.length > 0 ? (
+            <Image
+              src={post.images[0]}
+              alt='thumbnail'
+              fill
+              sizes='100%'
+              className='w-full h-full rounded-xl'
+            />
+          ) : null}
           <div className='absolute left-3 right-4 bottom-[14px]'>
             <h3 className='S500 mb-1 text-white'>{post.title}</h3>
-            <p className='B100 text-gray-04'>{`${post.location} | ${post.headCount}`}</p>
+            <p className='B100 text-gray-04'>{`${post.location} | ${post.maxParticipants}`}</p>
           </div>
         </div>
       ))}
