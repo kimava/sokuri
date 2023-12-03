@@ -44,6 +44,7 @@ export default function RootLayout({
         <Header />
         <main className='grow'>{children}</main>
         <GNB />
+        <div id='portal' />
       </body>
     </html>
   );
