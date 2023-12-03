@@ -3,9 +3,10 @@ import Image from 'next/image';
 import React from 'react';
 import EventPostTab from './EventPostTab';
 import KakaoMap from './KakaoMap';
+import { RecruitDetail } from '@/service/recruits';
 
 type Props = {
-  post: EventDetailWithMeta;
+  post: EventDetailWithMeta | RecruitDetail;
 };
 
 export default function EventPostContentSection({ post }: Props) {
