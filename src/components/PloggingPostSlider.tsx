@@ -1,11 +1,18 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
 import { PloggingPost } from '@/service/ploggingPosts';
 import Avatar from '../../public/images/avatar.png';
+import LottieHeart from './icon/LottieHeart';
 
 type Props = { posts: PloggingPost[] };
 
 export default function PloggingPostSlider({ posts }: Props) {
+  const handleLottieClick = () => {
+    console.log('oh yeah lottie clicked');
+  };
+
   return (
     <div className='grid grid-cols-2 gap-x-[7px] gap-y-3'>
       {posts.map((post, index) => (
@@ -14,6 +21,9 @@ export default function PloggingPostSlider({ posts }: Props) {
           key={`${post.thumbnail}${index}`}
           className='relative w-full h-[218px] rounded-[11px]'
         >
+          <div className='absolute top-0 right-0'>
+            <LottieHeart onClick={handleLottieClick} />
+          </div>
           <img
             src={post.thumbnail}
             alt='thumbnail'
