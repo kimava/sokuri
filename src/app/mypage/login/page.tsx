@@ -1,5 +1,6 @@
 'use client';
 
+import { API_ENDPOINT } from '@/app/constant';
 import { useEffect } from 'react';
 
 export default function Kakao() {
@@ -7,15 +8,13 @@ export default function Kakao() {
     const code = new URL(window.location.href).searchParams.get('code');
     console.log('code is', code);
     const login = async () => {
-      await fetch(
-        `http://13.209.208.58:8080/login/oauth2/code/kakao?code=${code}`,
-        {
-          headers: {
-            'Content-Type': 'application/json;charset=utf-8',
-            'Access-Control-Allow-Origin': 'http://localhost:3000',
-          },
-        }
-      ).then((res) => {
+      await fetch(`${API_ENDPOINT}/login/oauth2/code/kakao?code=${code}`, {
+        next: { revalidate: 0 },
+        headers: {
+          'Content-Type': 'application/json;charset=utf-8',
+          'Access-Control-Allow-Origin': 'http://localhost:3000',
+        },
+      }).then((res) => {
         console.log(res);
       });
     };
