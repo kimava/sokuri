@@ -1,14 +1,21 @@
 'use client';
 
-import React from 'react';
+import React, { useCallback } from 'react';
 import Image from 'next/image';
 import { PloggingPost } from '@/service/ploggingPosts';
 import Avatar from '../../public/images/avatar.png';
 import LottieHeart from './icon/LottieHeart';
+import useIntersectionObserver from '@/hooks/useIntersectionObserver';
 
 type Props = { posts: PloggingPost[] };
 
 export default function PloggingPostSlider({ posts }: Props) {
+  const onIntersect = useCallback(() => {
+    console.log('intersecting!');
+  }, []);
+
+  const { setTarget } = useIntersectionObserver({ onIntersect });
+
   const handleLottieClick = () => {
     console.log('oh yeah lottie clicked');
   };
@@ -47,6 +54,7 @@ export default function PloggingPostSlider({ posts }: Props) {
           </div>
         </div>
       ))}
+      <div ref={setTarget} className=' bg-blue-01 w-full h-4' />
     </div>
   );
 }
