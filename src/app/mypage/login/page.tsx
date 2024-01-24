@@ -15,9 +15,6 @@ export default function Kakao() {
         `${API_ENDPOINT}/login/oauth2/code/kakao?code=${code}&state=${state}`,
         {
           next: { revalidate: 0 },
-          headers: {
-            'Content-Type': 'application/json;charset=utf-8',
-          },
         }
       ).then((res) => {
         console.log(res);
