@@ -6,15 +6,20 @@ import { useEffect } from 'react';
 export default function Kakao() {
   useEffect(() => {
     const code = new URL(window.location.href).searchParams.get('code');
+    const state = new URL(window.location.href).searchParams.get('state');
+
     console.log('code is', code);
+    console.log('state is', state);
     const login = async () => {
-      await fetch(`${API_ENDPOINT}/login/oauth2/code/kakao?code=${code}`, {
-        next: { revalidate: 0 },
-        headers: {
-          'Content-Type': 'application/json;charset=utf-8',
-          'Access-Control-Allow-Origin': 'http://localhost:3000',
-        },
-      }).then((res) => {
+      await fetch(
+        `${API_ENDPOINT}/login/oauth2/code/kakao?code=${code}&state=${state}`,
+        {
+          next: { revalidate: 0 },
+          headers: {
+            'Content-Type': 'application/json;charset=utf-8',
+          },
+        }
+      ).then((res) => {
         console.log(res);
       });
     };
