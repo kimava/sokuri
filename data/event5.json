@@ -1,0 +1,23 @@
+{
+  "title": "안녕! 산해진미(山海眞美) 함께할게 in 제주",
+  "beginEvent": "Sat Jun 24 2023 GMT+0000",
+  "finishEvent": "Sun Jul 02 2023 GMT+0000",
+  "organizer": "제주특별자치도 자원봉사센터",
+  "location": "제주",
+  "venue": "제주시 김녕해수욕장",
+  "dues": "",
+  "numOfPeople": "제한 없음",
+  "dueDate": "Sat Jun 24 2023 00:00:00 GMT+0000",
+  "thumbnail": "https://images.unsplash.com/photo-1553096442-8fe2118fb927?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2624&q=80",
+  "position": {
+    "lat": 33.55738555220534,
+    "lng": 126.759488051597
+  },
+  "images": [
+    "https://images.unsplash.com/photo-1553096442-8fe2118fb927?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2624&q=80",
+    "https://images.unsplash.com/photo-1546142711-1e28c0540deb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2671&q=80",
+    "https://images.unsplash.com/photo-1589502979768-57fc4df2df8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1704&q=80"
+  ],
+  "website": "www.google.com",
+  "content": ""
+}

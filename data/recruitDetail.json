@@ -1,0 +1,20 @@
+{
+  "title": "2023 GBBF 강릉 플로깅",
+  "beginEvent": "2023-11-23",
+  "finishEvent": "2024-08-27",
+  "images": [
+    "https://images.unsplash.com/photo-1559675531-4b0029b45a65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
+    "https://images.unsplash.com/photo-1614909382965-b3870b49b5c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2580&q=80",
+    "https://images.unsplash.com/photo-1589502979768-57fc4df2df8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1704&q=80"
+  ],
+  "location": "경기도 성남시",
+  "venue": "NAVER그린팩토리 (경기도 성남시 분당구 불정로 6 그린팩토리)",
+  "dueDate": "2024-08-26T15:00:00.000+00:00",
+  "numOfPeople": "100명",
+  "website": "https://www.naver.com",
+  "content": "강릉비치비어페스티벌",
+  "position": {
+    "lat": 37.3595963,
+    "lng": 127.1054328
+  }
+}

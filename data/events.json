@@ -1,0 +1,92 @@
+[
+  {
+    "id": "event1",
+    "title": "2023 GBBF 강릉 플로깅",
+    "beginEvent": "2023-11-23",
+    "finishEvent": "2024-08-27",
+    "createdAt": "2023-10-19T14:44:49",
+    "organizer": "강릉비치비어페스티벌",
+    "images": [
+      "https://images.unsplash.com/photo-1559675531-4b0029b45a65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
+      "https://images.unsplash.com/photo-1614909382965-b3870b49b5c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2580&q=80",
+      "https://images.unsplash.com/photo-1589502979768-57fc4df2df8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1704&q=80"
+    ],
+    "location": "경기도 성남시",
+    "dues": 0
+  },
+  {
+    "id": "event2",
+    "title": "JUST WALK 2023",
+    "beginEvent": "2023-11-23",
+    "finishEvent": "2024-08-27",
+    "createdAt": "2023-10-19T14:44:49",
+    "organizer": "메리한 사람들",
+    "images": [
+      "https://images.unsplash.com/photo-1553096442-8fe2118fb927?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2624&q=80"
+    ],
+    "location": "경기도 성남시",
+    "dues": 10000
+  },
+  {
+    "id": "event3",
+    "title": "안녕! 산해진미 함께할게 in 제주",
+    "beginEvent": "2023-11-23",
+    "finishEvent": "2024-08-27",
+    "createdAt": "2023-10-19T14:44:49",
+    "organizer": "제주특별자치도 자원봉사센터",
+    "images": [
+      "https://images.unsplash.com/photo-1546142711-1e28c0540deb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2671&q=80"
+    ],
+    "location": "경기도 성남시",
+    "dues": 0
+  },
+  {
+    "id": "event4",
+    "title": "플로깅 이벤트",
+    "beginEvent": "2023-11-23",
+    "finishEvent": "2024-08-27",
+    "createdAt": "2023-10-19T14:44:49",
+    "organizer": "잇츠미",
+    "images": [
+      "https://images.unsplash.com/photo-1584445743187-cd8ba040349a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2652&q=80"
+    ],
+    "location": "경기도 성남시",
+    "dues": 0
+  },
+  {
+    "id": "event5",
+    "title": "플로플로플로깅",
+    "beginEvent": "2023-11-23",
+    "finishEvent": "2024-08-27",
+    "createdAt": "2023-10-19T14:44:49",
+    "organizer": "플로깅어스",
+    "images": [
+      "https://images.unsplash.com/photo-1560196327-cca0a731441b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
+      "https://images.unsplash.com/photo-1560196327-cca0a731441b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80"
+    ],
+    "location": "경기도 성남시",
+    "dues": 20000
+  },
+  {
+    "id": "event6",
+    "title": "2023 쓰줍쓰줍",
+    "beginEvent": "2023-11-23",
+    "finishEvent": "2024-08-27",
+    "createdAt": "2023-10-19T14:44:49",
+    "organizer": "쓰담쓰담",
+    "images": null,
+    "location": "경기도 성남시",
+    "dues": 15000
+  },
+  {
+    "id": "event7",
+    "title": "홀리몰리",
+    "beginEvent": "2023-11-23",
+    "finishEvent": "2024-08-27",
+    "createdAt": "2023-10-19T14:44:49",
+    "organizer": "동작구 주민센터에서 만나요",
+    "images": null,
+    "location": "경기도 성남시",
+    "dues": 15000
+  }
+]
