@@ -1,4 +1,4 @@
-import { API_ENDPOINT } from '@/app/constant';
+import { API_ENDPOINT } from '@/constants/constant';
 import { readFile } from 'fs/promises';
 import path from 'path';
 
