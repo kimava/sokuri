@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import ModalPortal from './ModalPortal';
 import FullPageModal from './FullPageModal';
-import CarouselWithIndex from './CarouselWithIndex';
+import CarouselWithIndex from '../features/community/main/CarouselWithIndex';
 
 type Props = {
   images: string[];

@@ -1,7 +1,7 @@
-import EventBanner from '@/components/EventBanner';
-import EventPost from '@/components/EventPost';
-import RecruitPost from '@/components/RecruitPost';
-import PloggingPost from '@/components/PloggingPost';
+import EventBanner from '@/features/community/main/EventBanner';
+import EventPost from '@/features/community/main/EventPost';
+import RecruitPost from '@/features/community/main/RecruitPost';
+import PloggingPost from '@/features/community/main/PloggingPost';
 
 export default function CommunityPage() {
   return (
