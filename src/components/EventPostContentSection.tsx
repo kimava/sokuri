@@ -1,9 +1,9 @@
-import { EventDetailWithMeta } from '@/service/events';
+import { EventDetailWithMeta } from '@/services/events';
 import Image from 'next/image';
 import React from 'react';
 import EventPostTab from './EventPostTab';
 import KakaoMap from './KakaoMap';
-import { RecruitDetail } from '@/service/recruits';
+import { RecruitDetail } from '@/services/recruits';
 
 type Props = {
   post: EventDetailWithMeta | RecruitDetail;

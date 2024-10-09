@@ -1,4 +1,4 @@
-import { Recruit } from '@/service/recruits';
+import { Recruit } from '@/services/recruits';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';

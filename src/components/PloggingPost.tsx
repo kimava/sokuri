@@ -1,6 +1,6 @@
 import React from 'react';
 import PloggingPostSlider from './PloggingPostSlider';
-import { getAllPloggingPosts } from '@/service/ploggingPosts';
+import { getAllPloggingPosts } from '@/services/ploggingPosts';
 
 export default async function PloggingPost() {
   const posts = await getAllPloggingPosts();

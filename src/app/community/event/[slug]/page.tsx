@@ -2,7 +2,7 @@ import CarouselForThumbnail from '@/components/CarouselForThumbnail';
 import EventPostContentSection from '@/components/EventPostContentSection';
 import EventPostNavigationLinks from '@/components/EventPostNavigationLinks';
 import ShareLinkButtonSet from '@/components/ShareLinkButtonSet';
-import { getPostDetail } from '@/service/events';
+import { getPostDetail } from '@/services/events';
 import { countDDay } from '@/util/util';
 import Image from 'next/image';
 import React from 'react';

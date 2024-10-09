@@ -1,4 +1,4 @@
-import { getTopRecruitPosts } from '@/service/recruits';
+import { getTopRecruitPosts } from '@/services/recruits';
 import Link from 'next/link';
 import React from 'react';
 import RecruitPostSlider from './RecruitPostSlider';

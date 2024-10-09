@@ -1,5 +1,5 @@
 import RecruitGrid from '@/components/RecruitGrid';
-import { getAllRecruitPosts } from '@/service/recruits';
+import { getAllRecruitPosts } from '@/services/recruits';
 import Image from 'next/image';
 import React from 'react';
 import RecruitImg from '../../../../public/images/recruit.png';

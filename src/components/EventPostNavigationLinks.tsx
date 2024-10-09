@@ -1,4 +1,4 @@
-import { Event } from '@/service/events';
+import { Event } from '@/services/events';
 import Link from 'next/link';
 import React from 'react';
 

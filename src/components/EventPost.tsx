@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import EventPostSlider from './EventPostSlider';
-import { getAllPosts } from '@/service/events';
+import { getAllPosts } from '@/services/events';
 import Carousel from './Carousel';
 
 export default async function EventPost() {

@@ -1,6 +1,6 @@
 'use client';
 
-import { Event } from '@/service/events';
+import { Event } from '@/services/events';
 import { countDDay, formatDate } from '@/util/util';
 import Link from 'next/link';
 
