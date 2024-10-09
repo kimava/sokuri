@@ -1,9 +1,9 @@
 'use client';
 import Image from 'next/image';
 import React, { useState } from 'react';
-import ModalPortal from './ModalPortal';
-import FullPageModal from './FullPageModal';
-import CarouselWithIndex from '../features/community/main/CarouselWithIndex';
+import ModalPortal from '@/components/ModalPortal';
+import FullPageModal from '@/components/FullPageModal';
+import CarouselWithIndex from './CarouselWithIndex';
 
 type Props = {
   images: string[];

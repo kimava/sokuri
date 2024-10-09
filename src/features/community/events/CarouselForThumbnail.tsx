@@ -1,10 +1,8 @@
 'use client';
 
 import React, { useCallback, useEffect, useState } from 'react';
-import useEmblaCarousel, {
-  EmblaOptionsType,
-  EmblaCarouselType,
-} from 'embla-carousel-react';
+import useEmblaCarousel from 'embla-carousel-react';
+import { EmblaOptionsType, EmblaCarouselType } from 'embla-carousel';
 
 type Props = {
   slides: any;
