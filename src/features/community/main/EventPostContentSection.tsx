@@ -2,7 +2,7 @@ import { EventDetailWithMeta } from '@/services/events';
 import Image from 'next/image';
 import React from 'react';
 import EventPostTab from './EventPostTab';
-import KakaoMap from './KakaoMap';
+import KakaoMap from '../../map/KakaoMap';
 import { RecruitDetail } from '@/services/recruits';
 
 type Props = {

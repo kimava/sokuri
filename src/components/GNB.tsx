@@ -3,12 +3,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import Map from '../../public/images/map.svg';
-import Trash from '../../public/images/trash.svg';
-import User from '../../public/images/user.svg';
-import MapActive from '../../public/images/map-active.svg';
-import TrashActive from '../../public/images/trash-active.svg';
-import UserActive from '../../public/images/user-active.svg';
+import Map from '../../public/svgs/map.svg';
+import Trash from '../../public/svgs/trash.svg';
+import User from '../../public/svgs/user.svg';
+import MapActive from '../../public/svgs/map-active.svg';
+import TrashActive from '../../public/svgs/trash-active.svg';
+import UserActive from '../../public/svgs/user-active.svg';
 
 const menu = [
   {

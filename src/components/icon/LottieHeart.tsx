@@ -2,7 +2,7 @@
 
 import { use, useState } from 'react';
 import Lottie from 'react-lottie-player';
-import Heart from '../../../public/images/LottieHeart.json';
+import Heart from '../../../public/lotties/heart.json';
 
 type Props = {
   onClick: () => void;

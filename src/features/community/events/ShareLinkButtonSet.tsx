@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Share from '../../public/images/share.png';
+import Share from '../../../../public/images/share.png';
 
 // Props Type 재정의
 export default function ShareLinkButtonSet({

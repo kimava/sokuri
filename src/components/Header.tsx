@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import Sokuri from '../../public/images/logo.svg';
+import Sokuri from '../../public/svgs/logo.svg';
 
 export default function Header() {
   return (

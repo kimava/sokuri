@@ -1,6 +1,6 @@
 import CarouselForThumbnail from '@/features/community/events/CarouselForThumbnail';
-import EventPostContentSection from '@/components/EventPostContentSection';
-import ImageSlider from '@/components/ImageSlider';
+import EventPostContentSection from '@/features/community/main/EventPostContentSection';
+import ImageSlider from '@/features/community/main/ImageSlider';
 import ShareLinkButtonSet from '@/features/community/events/ShareLinkButtonSet';
 import { getRecruitDetail } from '@/services/recruits';
 import { countDDay } from '@/util/util';

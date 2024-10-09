@@ -3,7 +3,7 @@
 import React, { useCallback } from 'react';
 import Image from 'next/image';
 import { PloggingPost } from '@/services/ploggingPosts';
-import Avatar from '../../public/images/avatar.png';
+import Avatar from '../../../../public/images/avatar.png';
 import LottieHeart from '../../../components/icon/LottieHeart';
 import useIntersectionObserver from '@/hooks/useIntersectionObserver';
 
