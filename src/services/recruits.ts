@@ -27,7 +27,7 @@ export type RecruitDetail = Recruit & {
 };
 
 export async function getAllRecruitPosts(): Promise<Recruit[]> {
-  // const res = await fetch(`${API_ENDPOINT}/community`);
+  // const res = await fetch(`${API_ENDPOINT}/plogging`);
   const filePath = path.join(process.cwd(), 'data', 'recruits.json');
 
   return readFile(filePath, 'utf-8')
@@ -36,7 +36,7 @@ export async function getAllRecruitPosts(): Promise<Recruit[]> {
       events.sort((a, b) => (a.createdAt > b.createdAt ? -1 : 1))
     );
 
-  // return fetch(`${API_ENDPOINT}/community`, { next: { revalidate: 3600 } })
+  // return fetch(`${API_ENDPOINT}/plogging`, { next: { revalidate: 3600 } })
   //   .then<Recruit[]>((res) => res.json())
   //   .then((events) =>
   //     events.sort((a, b) => (a.createdAt > b.createdAt ? -1 : 1))
@@ -45,7 +45,7 @@ export async function getAllRecruitPosts(): Promise<Recruit[]> {
 }
 
 export async function getTopRecruitPosts(): Promise<Recruit[]> {
-  // const res = await fetch(`${API_ENDPOINT}/community`);
+  // const res = await fetch(`${API_ENDPOINT}/plogging`);
   const filePath = path.join(process.cwd(), 'data', 'recruits.json');
 
   return readFile(filePath, 'utf-8')
@@ -55,7 +55,7 @@ export async function getTopRecruitPosts(): Promise<Recruit[]> {
     )
     .then((events) => events.slice(0, 10));
 
-  // return fetch(`${API_ENDPOINT}/community`, { next: { revalidate: 3600 } })
+  // return fetch(`${API_ENDPOINT}/plogging`, { next: { revalidate: 3600 } })
   //   .then<Recruit[]>((res) => res.json())
   //   .then((events) =>
   //     events.sort((a, b) => (a.createdAt > b.createdAt ? -1 : 1))

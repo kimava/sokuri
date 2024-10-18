@@ -15,7 +15,7 @@ export default async function Eventpage() {
       <section>
         {posts.map((post) => (
           <Link
-            href={`/community/event/${post.id}`}
+            href={`/plogging/event/${post.id}`}
             key={post.id}
             className='py-5 flex flex-col items-start border-solid border-b-2 border-b-gray-02'
           >

@@ -11,7 +11,7 @@ export default function EventPostSlider({ posts }: Props) {
     <>
       {posts.map((post) => (
         <Link
-          href={`/community/event/${post.id}`}
+          href={`/plogging/event/${post.id}`}
           key={post.title}
           className='my-4 mr-2 pt-4 pb-5 px-4.5 flex-embla min-w-0 text-left bg-white rounded-2.5xl shadow'
         >

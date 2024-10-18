@@ -11,7 +11,7 @@ export default function RecruitPostSlider({ posts }: Props) {
       {posts.map((post) => (
         <Link
           key={post.id}
-          href={`/community/recruit/${post.id}`}
+          href={`/plogging/recruit/${post.id}`}
           className='mr-[7px] flex-embla2 w-[168px] h-[208px] relative rounded-xl bg-gradient-gray'
         >
           {post.images && post.images.length > 0 ? (
@@ -30,7 +30,7 @@ export default function RecruitPostSlider({ posts }: Props) {
         </Link>
       ))}
       <Link
-        href='/community/recruit'
+        href='/plogging/recruit'
         className='mr-4 flex-embla2 w-[168px] h-[208px] relative rounded-xl flex justify-center items-center'
       >
         <Image

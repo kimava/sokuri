@@ -1,4 +1,4 @@
-import RecruitGrid from '@/features/community/crew/RecruitGrid';
+import RecruitGrid from '@/features/plogging/crew/RecruitGrid';
 import { getAllRecruitPosts } from '@/services/recruits';
 import Image from 'next/image';
 import React from 'react';

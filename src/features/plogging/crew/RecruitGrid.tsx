@@ -15,7 +15,7 @@ export default function RecruitGrid({ posts }: Props) {
         posts.map((post) => (
           <Link
             key={post.id}
-            href={`/community/recruit/${post.id}`}
+            href={`/plogging/recruit/${post.id}`}
             className='mb-[5px] w-full h-[208px] rounded-xl bg-gradient-gray relative'
           >
             {post.images && post.images.length > 0 ? (

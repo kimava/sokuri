@@ -10,7 +10,7 @@ export default async function RecruitPost() {
     <section className=' mb-15'>
       <div className='mx-4 mb-4 flex justify-between items-center'>
         <h2 className='H500 text-gray-12'>함께 플로깅 하러 가실래요?🔥</h2>
-        <Link href='/community/recruit' className='B300 text-gray-06'>
+        <Link href='/plogging/recruit' className='B300 text-gray-06'>
           전체보기
         </Link>
       </div>

@@ -9,7 +9,7 @@ export default async function EventPost() {
     <section className='mt-6 mb-9.5 text-left'>
       <div className='mr-4 flex justify-between items-center'>
         <h2 className='pl-4 H500 text-gray-12'>모집 중인 행사</h2>
-        <Link href='/community/event' className='B300 text-gray-06'>
+        <Link href='/plogging/event' className='B300 text-gray-06'>
           전체보기
         </Link>
       </div>
