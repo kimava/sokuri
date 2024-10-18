@@ -1,6 +1,6 @@
 'use client';
 
-import { API_ENDPOINT } from '@/app/constant';
+import { API_ENDPOINT } from '@/constants/constant';
 import { useEffect } from 'react';
 
 export default function Kakao() {

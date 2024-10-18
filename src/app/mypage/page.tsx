@@ -1,4 +1,4 @@
-import { KAKAO_AUTH_URL } from '@/service/kakaoLogin';
+import { KAKAO_AUTH_URL } from '@/services/kakaoLogin';
 import Link from 'next/link';
 import React from 'react';
 

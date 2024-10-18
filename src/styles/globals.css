@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #f5f5f5;
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
+body {
+  text-align: center;
+  max-width: 414px;
+  margin: 0px auto;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  position: relative;
+  height: 100vh;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@layer utilities {
+  .H700 {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+  }
+
+  .H500 {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+  }
+
+  .H300 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+  }
+
+  .H100 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+    font-weight: 600;
+  }
+
+  .S500 {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+  }
+
+  .S300 {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.2px;
+    font-weight: 600;
+  }
+
+  .S100 {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+  }
+
+  .B500 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+  }
+
+  .B300 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+  }
+
+  .B100 {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+  }
+
+  .U300 {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    font-weight: 700;
+  }
+
+  .U100 {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+  }
+
+  .CONTENT {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.07px;
+    font-weight: 400;
+  }
+}
