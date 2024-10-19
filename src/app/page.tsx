@@ -1,9 +1,6 @@
-import Image from 'next/image';
+'use server';
+import { redirect } from 'next/navigation';
 
-export default function Home() {
-  return (
-    <main>
-      <h1>Sokuri 소쿠리</h1>
-    </main>
-  );
+export default async function Home() {
+  return redirect(`/plogging`);
 }
