@@ -10,11 +10,12 @@ import useIntersectionObserver from '@/hooks/useIntersectionObserver';
 type Props = { posts: PloggingPost[] };
 
 export default function PloggingPostSlider({ posts }: Props) {
-  const onIntersect = useCallback(() => {
-    console.log('intersecting!');
-  }, []);
+  // FIX ME : To implement intersection observer, use ReactQuery and make a custom hook
+  // const onIntersect = useCallback(() => {
+  //   console.log('intersecting!');
+  // }, []);
 
-  const { setTarget } = useIntersectionObserver({ onIntersect });
+  // const { setTarget } = useIntersectionObserver({ onIntersect });
 
   const handleLottieClick = () => {
     console.log('oh yeah lottie clicked');
@@ -54,7 +55,7 @@ export default function PloggingPostSlider({ posts }: Props) {
           </div>
         </div>
       ))}
-      <div ref={setTarget} className=' bg-blue-01 w-full h-4' />
+      {/* <div ref={setTarget} className=' bg-blue-01 w-full h-4' /> */}
     </div>
   );
 }
