@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getAllPosts } from '@/services/events';
-import { countDDay, formatDate } from '@/util/util';
+import { countDDay, formatDate } from '@/utils/utils';
 
 export default async function Eventpage() {
   const posts = await getAllPosts();
