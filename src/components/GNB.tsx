@@ -11,6 +11,7 @@ import {
   PloggingActiveIcon,
   UserActiveIcon,
 } from '../../public/svgs';
+import { isActivePath } from '@/utils/utils';
 
 const menu = [
   {
@@ -50,9 +51,13 @@ export default function GNB() {
         >
           {
             <Image
-              src={pathName.startsWith(item.href) ? item.activeIcon : item.icon}
+              src={
+                isActivePath(pathName, item.href) ? item.activeIcon : item.icon
+              }
               alt={
-                pathName.startsWith(item.href) ? `active ${item.alt}` : item.alt
+                isActivePath(pathName, item.href)
+                  ? `active ${item.alt}`
+                  : item.alt
               }
               width={24}
               height={24}
@@ -60,7 +65,9 @@ export default function GNB() {
           }
           <span
             className={`mt-0.5 ${
-              pathName.startsWith(item.href) ? `text-blue-01` : `text-gray-08`
+              isActivePath(pathName, item.href)
+                ? `text-blue-01`
+                : `text-gray-08`
             }`}
           >
             {item.name}

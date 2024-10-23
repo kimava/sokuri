@@ -15,3 +15,6 @@ export function formatDate(inputDateStr: Date): string {
 
   return `${year}.${month}.${day}(${dayOfWeek})`;
 }
+
+export const isActivePath = (pathName: string, href: string): boolean =>
+  pathName.startsWith(href);
