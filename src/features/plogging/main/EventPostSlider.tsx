@@ -1,7 +1,7 @@
 'use client';
 
 import { Event } from '@/services/events';
-import { countDDay, formatDate } from '@/util/util';
+import { countDDay, formatDate } from '@/utils/utils';
 import Link from 'next/link';
 
 type Props = { posts: Event[] };

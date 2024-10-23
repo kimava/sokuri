@@ -3,7 +3,7 @@ import EventPostContentSection from '@/features/plogging/main/EventPostContentSe
 import EventPostNavigationLinks from '@/features/plogging/main/EventPostNavigationLinks';
 import ShareLinkButtonSet from '@/features/plogging/events/ShareLinkButtonSet';
 import { getPostDetail } from '@/services/events';
-import { countDDay } from '@/util/util';
+import { countDDay } from '@/utils/utils';
 import Image from 'next/image';
 import React from 'react';
 
