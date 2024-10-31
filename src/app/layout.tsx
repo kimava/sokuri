@@ -2,6 +2,7 @@ import localFont from 'next/font/local';
 import '@/styles/globals.css';
 import GNB from '@/components/GNB';
 import Header from '@/components/Header';
+import Providers from '@/services/providers';
 
 const Pretendard = localFont({
   src: '../../public/fonts/Pretendard.woff2',
@@ -21,10 +22,12 @@ export default function RootLayout({
   return (
     <html lang='en' className={Pretendard.className}>
       <body className='flex flex-col'>
-        <Header />
-        <main className='grow'>{children}</main>
-        <GNB />
-        <div id='portal' />
+        <Providers>
+          <Header />
+          <main className='grow'>{children}</main>
+          <GNB />
+          <div id='portal' />
+        </Providers>
       </body>
     </html>
   );
